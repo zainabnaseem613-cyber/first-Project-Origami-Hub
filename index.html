@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Origami Hub - Home</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+         <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="main origami.css">
+    <!-- <script href="home.js"></script> -->
+</head>
+<body data-theme="light" style=" background-image: url(assect/back1.jpg); background-repeat: no-repeat;
+background-size: cover;     /* image ko full area me fit kar deta hai */
+background-position: center; /* image center me rahe */">
+    <!-- Navbar Section -->
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assect/logo.png" alt="Origami Hub Logo" width="60" height="60">
+                    <span class="logo-text" >Origami Hub</span> 
+                </a>
+            </div>
+
+            <!-- Hamburger menu button for mobile -->
+            <button class="mobile-menu-toggle" aria-label="Toggle navigation menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
+            <div class="nav-menu-container">
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">Categories</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="Animals.html">Origami Animals</a></li>
+                            <li><a href="Birds.html">Origami Birds</a></li>
+                            <li><a href="Flower.html">Origami Flowers</a></li>
+                            <li><a href="Face.html">Origami Faces</a></li>
+                            <li><a href="dollar.html">Origami Dollar Bills</a></li>
+                            <li><a href="Holiday.html">Origami Holidays</a></li>
+                            <li><a href="Letter.html">Origami Letter</a></li>
+                            <li><a href="Jewellery.html">Origami Jewellery</a></li>
+                            <li><a href="paper toy.html">Origami Paper Toys</a></li>
+                            <li><a href="Nature.html">Origami Nature</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">Levels</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="Easy.html">Easy (Kids)</a></li>
+                            <li><a href="hard.html">Complex (Elders)</a></li>
+                        </ul> 
+                    </li>   
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+        </nav>
+    </header>
+
+       <div id="classicalCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#classicalCarousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#classicalCarousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#classicalCarousel" data-bs-slide-to="2"></button>
+        </div>
+
+                <div class="carousel-inner">
+            <!-- Slide 1 -->
+            <div class="carousel-item active" >
+                <div class="animated-slide slide1">
+                    <img src="assect/slide1.jpg"  class="d-block w-100 moving-image" alt="Origami 1">
+                    <div class="overlay">
+                        <h1>Geometric Paper Art</h1>
+                        <p style="color: white;">Delicate folds forming clean, simple shapes</p>
+                    </div>
+                </div>
+            </div>
+
+                      <!-- Slide 2 -->
+            <div class="carousel-item">
+                <div class="animated-slide slide2">
+                    <img src="assect/slide2.png" class="d-block w-100 moving-image" alt="Origami 2">
+                    <div class="overlay">
+                        <h1>Precision in Every Fold</h1>
+                        <p style="color: white;">A bold, structured form crafted with accuracy</p>
+                    </div>
+                </div>
+            </div>
+
+                      <!-- Slide 3 -->
+            <div class="carousel-item">
+                <div class="animated-slide slide3">
+                    <img src="assect/slide3.jpg" class="d-block w-100 moving-image" alt="Origami 3">
+                    <div class="overlay">
+                        <h1>Colors Crafted By Hand</h1>
+                        <p style="color: white;">Vibrant folds creating playful, bright art.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+               <button class="carousel-control-prev" type="button" data-bs-target="#classicalCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#classicalCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+
+        <!-- <section class="main-box" style=" border: 1px solid black;  border-radius: 30px; background-color: plum;"> -->
+                    <h1 style="font-size: 50px; margin-top: 50px; color:black;">Categories</h1>
+        <div class="divider" style="border: 2px solid black; width: 15%; margin-left: 650px;"></div>
+    <!-- Origami Animal -->
+    <div class="container1" >
+
+    <!-- Card 1 -->
+    <div class="card1">
+      <div class="img-box">
+        <img src="assect/animal1.jfif" class="main-img" alt="image">
+        <img src="assect/animal2.webp" class="hover-img" alt="hover image">
+      </div>
+      <div class="card1-content">
+        <h3>Origami Animals</h3>
+        <p>Origami animals are paper-folded creations that represent different creatures using simple, artistic folds.</p>
+        <button><a href="Animals.html"style="color: white; text-decoration: none;">View More</a></button>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="card1">
+      <div class="img-box">
+        <img src="assect/bird1.jfif" class="main-img">
+        <img src="assect/bird2.jfif" class="hover-img">
+      </div>
+      <div class="card1-content">
+        <h3>Origami Birds</h3>
+        <p>Origami birds use graceful paper folds to create simple, elegant representations of flying creatures.</p>
+        <button><a href="Birds.html"style="color: white; text-decoration: none;">View More</a></button>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="card1">
+      <div class="img-box">
+        <img src="assect/face1.jfif" class="main-img">
+        <img src="assect/face2.png" class="hover-img">
+      </div>
+      <div class="card1-content">
+        <h3>origami Faces</h3>
+        <p>Origami faces use folded shapes to form expressive characters with simple, clear features, beautiful.</p>
+        <button><a href="Face.html" style="color: white; text-decoration: none;">View More</a></button>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="card1">
+      <div class="img-box">
+        <img src="assect/flower1.jfif" class="main-img">
+        <img src="assect/flower2.jfif" class="hover-img">
+      </div>
+      <div class="card1-content">
+        <h3>origami Flowers</h3>
+        <p>Origami flowers use delicate folds to form elegant paper blossoms that look simple yet beautiful.</p>
+        <button><a href="Flower.html" style="color: white; text-decoration: none;">View More</a></button>
+      </div>
+    </div>
+
+    <!-- Card 5 -->
+    <div class="card1">
+      <div class="img-box">
+        <img src="assect/origami dollar.png" class="main-img">
+        <img src="assect/dollarB.jfif" class="hover-img">
+      </div>
+      <div class="card1-content">
+        <h3>Origami Dollar Bills</h3>
+        <p>Origami dollar bills transform ordinary currency into creative and intricate shapes using precise folds and artistic techniques.</p>
+        <button><a href="dollar.html" style="color: white; text-decoration: none;">View More</a></button>
+      </div>
+    </div>
+
+    <!-- Card 6 -->
+    <div class="card1">
+      <div class="img-box">
+        <img src="assect/holiday5.jfif" class="main-img">
+        <img src="assect/holiday6.jfif" class="hover-img">
+      </div>
+      <div class="card1-content">
+        <h3>Origami Holidays</h3>
+        <p>Origami holiday decoration, folded from colorful paper, creating festive shapes perfect for celebrations, crafts, and displays.</p>
+        <button><a href="Holiday.html" style="color: white; text-decoration: none;">View More</a></button>
+      </div>
+    </div>
+
+    <!-- Card 7 -->
+    <div class="card1">
+      <div class="img-box">
+        <img src="assect/letter1.jfif" class="main-img">
+        <img src="assect/letter2.webp" class="hover-img">
+      </div>
+      <div class="card1-content">
+        <h3>Origami Letters</h3>
+        <p>Origami letters transform a simple sheet of paper into a neatly folded, decorative, and creative message.</p>
+        <button><a href="Letter.html" style="color: white; text-decoration: none;">View More</a></button>
+      </div>
+    </div>
+
+    <!-- Card 8 -->
+    <div class="card1">
+      <div class="img-box">
+        <img src="assect/g jewellary2.webp" class="main-img">
+        <img src="assect/g jewellary1.png" class="hover-img">
+      </div>
+      <div class="card1-content">
+        <h3>Origami Jewellery</h3>
+        <p>Origami jewellery uses delicate paper folds to create stylish, lightweight accessories with artistic charm.</p>
+        <button><a href="Jewellery.html" style="color: white; text-decoration: none;">View More</a></button>
+      </div>
+    </div>
+
+    <!-- Card 9 -->
+    <div class="card1" style="margin-bottom: 20px;">
+      <div class="img-box">
+        <img src="assect/paper toy1.jfif" class="main-img">
+        <img src="assect/paper toy2.png" class="hover-img">
+      </div>
+      <div class="card1-content">
+        <h3>Origami Paper Toy</h3>
+        <p>Origami paper toys use fun, simple folds to create playful, interactive shapes from a single sheet.</p>
+        <button><a href="paper toy.html" style="color: white; text-decoration: none;">View More</a></button>
+      </div>
+    </div>
+
+    <!-- Card 10 -->
+    <div class="card1" style="margin-bottom: 20px;">
+      <div class="img-box">
+        <img src="assect/nature2.jpg" class="main-img">
+        <img src="assect/g winter.png" class="hover-img">
+      </div>
+      <div class="card1-content">
+        <h3>Origami Nature</h3>
+        <p>Origami nature uses simple paper folds to create peaceful plants, animals, and natural outdoor forms.</p>
+        <button><a href="Nature.html" style="color: white; text-decoration: none;">View More</a></button>
+      </div>
+    </div>
+
+  </div>
+
+    <!-- Footer Section -->
+  <footer>
+        <div class="footer-container">
+            <!-- Newsletter Section -->
+            <div class="footer-section">
+                <h3>NEWSLETTER</h3>
+                <div class="newsletter-form1">
+                    <p>Subscribe to our newsletter for updates, news, and exclusive offers.</p>
+                    <div class="form1-group">
+                        <input type="email" placeholder="Your email address">
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Contact Section -->
+            <div class="footer-section">
+                <h3>Contact Us Directly</h3>
+                <div class="contact1-info">
+                    <p><i class="fas fa-phone-alt"></i> (888) 528-2011</p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:info@origamihub.com">info@origamihub.com</a></p>
+                </div>
+            </div>
+            
+            <!-- Links Section -->
+            <div class="footer-section">
+                <h3>Our Links</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html" style="color: white; text-decoration: none; list-style: none;">Home</a></li>
+                    <li><a href="Gallery.html" style="color: white; text-decoration: none; list-style: none;">Gallery</a></li>
+                    <li><a href="Contact.html" style="color: white; text-decoration: none; list-style: none;">Contact</a></li>
+                </ul>
+            </div>
+            
+            <!-- Support Section -->
+            <div class="footer-section">
+                <h3>Support</h3>
+                <ul class="footer-links">
+                    <li><a href="feedback.html" style="color: white; text-decoration: none;">Feedback</a></li>
+                    <li><a href="F.A.Q.html" style="color: white; text-decoration: none;">F.A.Q</a></li>
+                    <li><a href="article.html" style="color: white; text-decoration: none;">Article</a></li>
+                </ul>
+            </div>
+            
+            <!-- Brand Section -->
+            <div class="footer-brand">
+                <div class="logo2-footer">ORIGAMI <span> HUB</span></div>
+                <div class="tagline">The Creative Paper Art Community</div>
+                
+                <div class="footer-bottom">
+                    <div>
+                        <a href="privacy policy.html">Privacy Policy</a> | 
+                        <a href="terms and condition.html">Terms & Conditions</a>
+                    </div>
+                    
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="copyright">
+                    © 2025 Origami Hub. All rights reserved
+                </div>
+            </div>
+        </div>
+    </footer>  
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="main origami.js"></script>
+</body>
+</html>

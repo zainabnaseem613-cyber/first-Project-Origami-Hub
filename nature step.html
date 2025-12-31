@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Origami Hub-Nature Steps</title>
+     <!-- CSS -->
+    <link rel="stylesheet" href="main origami.css">
+         <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <!-- Bootstrap Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css" rel="stylesheet">
+    <!-- JS -->
+    <script src="main origami.js"></script>
+</head>
+<body  style="background-image: url(assect/back3.jfif); background-repeat: no-repeat;
+background-size: cover;     /* image ko full area me fit kar deta hai */">
+    <header>
+        <nav>
+            <div class="logo">
+                <a href="index.html">
+                    <img src="assect/logo.png" alt="Origami Hub Logo" width="60" height="60">
+                    <span class="logo-text" >Origami Hub</span> 
+                </a>
+            </div>
+
+            <!-- Hamburger menu button for mobile -->
+            <button class="mobile-menu-toggle" aria-label="Toggle navigation menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+
+            <div class="nav-menu-container">
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="About.html">About</a></li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">Categories</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="Animals.html">Origami Animals</a></li>
+                            <li><a href="Birds.html">Origami Birds</a></li>
+                            <li><a href="Flower.html">Origami Flowers</a></li>
+                            <li><a href="Face.html">Origami Faces</a></li>
+                            <li><a href="dollar.html">Origami Dollar Bills</a></li>
+                            <li><a href="Holiday.html">Origami Holidays</a></li>
+                            <li><a href="Letter.html">Origami Letter</a></li>
+                            <li><a href="Jewellery.html">Origami Jewellery</a></li>
+                            <li><a href="paper toy.html">Origami Paper Toys</a></li>
+                            <li><a href="Nature.html">Origami Nature</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">Levels</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="Easy.html">Easy (Kids)</a></li>
+                            <li><a href="hard.html">Complex (Elders)</a></li>
+                        </ul> 
+                    </li>   
+                    <li><a href="Gallery.html">Gallery</a></li>
+                    <li><a href="feedback.html">Feedback</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+
+ 
+            
+            <!-- Mobile menu backdrop -->
+            <div class="menu-backdrop"></div>
+        </nav>
+    </header>
+
+<div class="container6">
+    <!-- Left panel: Steps -->
+    <div class="steps-list">
+        <h2>Origami Nature Steps</h2>
+        <ul>
+            <li class="active" data-step="1">Origami Star</li>
+            <li data-step="2">Origami Tree</li>
+            <li data-step="3">Origami Cloud </li>
+            <li data-step="4">Origami Moon</li>
+            <li data-step="5">Origami Pumpkin</li>
+            <li data-step="6">Origami Cherry</li>
+        </ul>
+    </div>
+
+   <!-- Right panel: Image + Description -->
+    <div class="step-display">
+        <img id="step-image" src="https://i.pinimg.com/1200x/4c/7d/19/4c7d19a3dad94a46548c5adc61be8bb3.jpg" alt="Step 1">
+        <p id="step-text">Origami Star: This image features a precisely folded origami star with sharp lines and balanced symmetry, suitable for decorative and instructional use.</p>
+    </div>   
+</div>    
+  <footer>
+        <div class="footer-container">
+            <!-- Newsletter Section -->
+            <div class="footer-section">
+                <h3>NEWSLETTER</h3>
+                <div class="newsletter-form1">
+                    <p>Subscribe to our newsletter for updates, news, and exclusive offers.</p>
+                    <div class="form1-group">
+                        <input type="email" placeholder="Your email address">
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Contact Section -->
+            <div class="footer-section">
+                <h3>Contact Us Directly</h3>
+                <div class="contact1-info">
+                    <p><i class="fas fa-phone-alt"></i> (888) 528-2011</p>
+                    <p><i class="fas fa-envelope"></i> <a href="mailto:info@origamihub.com">info@origamihub.com</a></p>
+                </div>
+            </div>
+            
+            <!-- Links Section -->
+            <div class="footer-section">
+                <h3>Our Links</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html" style="color: white; text-decoration: none; list-style: none;">Home</a></li>
+                    <li><a href="Gallery.html" style="color: white; text-decoration: none; list-style: none;">Gallery</a></li>
+                    <li><a href="Contact.html" style="color: white; text-decoration: none; list-style: none;">Contact</a></li>
+                </ul>
+            </div>
+            
+            <!-- Support Section -->
+            <div class="footer-section">
+                <h3>Support</h3>
+                <ul class="footer-links">
+                    <li><a href="feedback.html" style="color: white; text-decoration: none;">Feedback</a></li>
+                    <li><a href="F.A.Q.html" style="color: white; text-decoration: none;">F.A.Q</a></li>
+                    <li><a href="article.html" style="color: white; text-decoration: none;">Article</a></li>
+                </ul>
+            </div>
+            
+            <!-- Brand Section -->
+            <div class="footer-brand">
+                <div class="logo2-footer">ORIGAMI <span> HUB</span></div>
+                <div class="tagline">The Creative Paper Art Community</div>
+                
+                <div class="footer-bottom">
+                    <div>
+                        <a href="privacy policy.html">Privacy Policy</a> | 
+                        <a href="terms and condition.html">Terms & Conditions</a>
+                    </div>
+                    
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                
+                <div class="copyright">
+                    © 2025 Origami Hub. All rights reserved
+                </div>
+            </div>
+        </div>
+    </footer>  
+
+<script>
+    
+    const steps = document.querySelectorAll(".steps-list li");
+const stepImage = document.getElementById("step-image");
+const stepText = document.getElementById("step-text");
+
+// Step content mapping
+const stepContent = {
+    1: {
+        img:"https://i.pinimg.com/1200x/4c/7d/19/4c7d19a3dad94a46548c5adc61be8bb3.jpg",
+        text: "Origami Star: This image features a precisely folded origami star with sharp lines and balanced symmetry, suitable for decorative and instructional use."
+    },
+    2: {
+        img: "https://i.pinimg.com/736x/3f/2a/f4/3f2af451c1f81935ba5d930e67abc21c.jpg",
+        text:  "Origami Tree: The image presents a structured origami tree, crafted with clean folds to represent a natural form in a refined and minimalist style."
+    },
+    3: {
+        img: "https://i.pinimg.com/736x/f9/34/cb/f934cbf7d8f64843fd9fc1808735bc11.jpg",
+        text:"Origami Cloud: This image displays a smoothly folded origami cloud, designed with soft curves to convey a calm and polished visual appearance."
+    },
+    4: {
+        img: "https://i.pinimg.com/736x/a4/f5/75/a4f575dd799a08595b9feea77f6b5a13.jpg" ,
+        text:  "Origami Moon: The image shows an elegant origami moon with gentle contours, reflecting a simple yet sophisticated paper design."
+    },
+    5: {
+        img: "https://i.pinimg.com/1200x/7f/dc/84/7fdc84508d8150277dd9711e93c4a393.jpg",
+        text: "Origami Pumpkin: This image features a well-defined origami pumpkin, created with layered folds to achieve depth and a realistic form."
+    },
+    6: {
+        img: "https://i.pinimg.com/736x/9e/ea/37/9eea3737208ce05a2de751184e000e24.jpg",
+        text:  "Origami Cherry: The image presents a carefully folded origami cherry design, showcasing attention to detail and balanced proportions for a clean finish"
+    }
+    }
+
+
+steps.forEach(step => {
+    step.addEventListener("click", () => {
+        // Remove active class from all
+        steps.forEach(s => s.classList.remove("active"));
+        // Add active class to clicked
+        step.classList.add("active");
+
+        const stepNumber = step.dataset.step;
+        stepImage.src = stepContent[stepNumber].img;
+        stepText.textContent = stepContent[stepNumber].text;
+    });
+});
+
+
+</script>
+</body>
+</html> 
