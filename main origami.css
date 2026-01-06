@@ -2311,6 +2311,7 @@ body {
       font-size: 13px;
       opacity: 0.85;
       margin-bottom: 14px;
+      color: black;
     }
 
     .project-card button {
@@ -2398,6 +2399,7 @@ body {
     .mini-card p {
       font-size: 15px;
       opacity: 0.9;
+      color: black;
     }
      @media (max-width: 1200px) {
 
@@ -3783,6 +3785,9 @@ textarea {
     text-align: center;
     max-width: 600px;
 }
+#step-text{
+    color: black;
+} 
 
 /* Responsive */
 @media (max-width: 768px) {
